@@ -10,6 +10,9 @@ This Arduino project uses an IR Reciever and enables remote control of LEDs usin
 - Breadboard (optional)
 - Jumper wires
 
+## Dependencies
+- IRremote : Arduino library for receiving, decoding, and sending infrared signals using an IR LED and receiver. To be manually downloaded depending of the reciever used.
+
 ## Setup
 1. Connect the IR Receiver module to pin 2 of the Arduino.
 2. Connect LEDs to digital pins 4, 5, 6, and 7 of the Arduino, each through a 220-ohm resistor.
