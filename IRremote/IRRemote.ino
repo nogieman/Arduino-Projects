@@ -1,5 +1,4 @@
-// sketch_mar03a
-#include <IRremote.h> //Include libraries for IRremote
+#include <IRremote.h> // libraries for IRremote
 const int IRpin=2; // connect Tsop1738 sensor to arduino pin3
 
 IRrecv irrecv(IRpin);
@@ -70,5 +69,4 @@ void loop() {
     irrecv.resume(); // Receive the next value
     //delay(100);
   }
-  // Other functionalities can be added here
 }
