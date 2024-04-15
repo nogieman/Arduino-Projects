@@ -16,7 +16,7 @@ This Arduino project uses an IR Reciever and enables remote control of LEDs usin
 3. Ensure that the Arduino is powered up and ready to receive commands.
 
 ## Usage
-1. Upload the provided Arduino sketch `sketch_mar03a.ino` to your Arduino board.
+1. Upload the provided Arduino sketch to your Arduino board.
 2. Power up the Arduino.
 3. Use an IR remote control to send commands to the Arduino. Each button press on the remote control toggles the corresponding LED on/off.
 
